@@ -7,7 +7,7 @@
       "role": "Batsman",
       "rating": 9.8,
       "price": 12000,
-      "playerImg": "/images/players/virat.png",
+      "playerImg": "https://i.ibb.co.com/KpGbdqFV/virat-Out.webp",
       "battingStyle": "Right-hand bat",
       "bowlingStyle": "Right-arm medium"
     },
