@@ -18,7 +18,7 @@
       "role": "Batsman",
       "rating": 9.6,
       "price": 11500,
-      "playerImg": "/images/players/babar.png",
+      "playerImg": "https://i.ibb.co.com/KpGbdqFV/virat-Out.webp",
       "battingStyle": "Right-hand bat",
       "bowlingStyle": "Right-arm offbreak"
     },
@@ -29,7 +29,7 @@
       "role": "All-Rounder",
       "rating": 9.5,
       "price": 11000,
-      "playerImg": "/images/players/stokes.png",
+      "playerImg": "https://i.ibb.co.com/KpGbdqFV/virat-Out.webp",
       "battingStyle": "Left-hand bat",
       "bowlingStyle": "Right-arm fast-medium"
     },
@@ -40,7 +40,7 @@
       "role": "All-Rounder",
       "rating": 9.7,
       "price": 11200,
-      "playerImg": "/images/players/shakib.png",
+      "playerImg": "https://i.ibb.co.com/KpGbdqFV/virat-Out.webp",
       "battingStyle": "Left-hand bat",
       "bowlingStyle": "Slow left-arm orthodox"
     },
@@ -51,7 +51,7 @@
       "role": "Wicketkeeper",
       "rating": 9.4,
       "price": 10800,
-      "playerImg": "/images/players/buttler.png",
+      "playerImg": "https://i.ibb.co.com/KpGbdqFV/virat-Out.webp",
       "battingStyle": "Right-hand bat",
       "bowlingStyle": "N/A"
     },
@@ -62,7 +62,7 @@
       "role": "Bowler",
       "rating": 9.3,
       "price": 10500,
-      "playerImg": "/images/players/starc.png",
+      "playerImg": "https://i.ibb.co.com/KpGbdqFV/virat-Out.webp",
       "battingStyle": "Left-hand bat",
       "bowlingStyle": "Left-arm fast"
     },
@@ -73,7 +73,7 @@
       "role": "Bowler",
       "rating": 9.6,
       "price": 10900,
-      "playerImg": "/images/players/rashid.png",
+      "playerImg": "https://i.ibb.co.com/KpGbdqFV/virat-Out.webp",
       "battingStyle": "Right-hand bat",
       "bowlingStyle": "Right-arm legbreak"
     },
@@ -84,7 +84,7 @@
       "role": "Batsman",
       "rating": 9.2,
       "price": 10200,
-      "playerImg": "/images/players/williamson.png",
+      "playerImg": "https://i.ibb.co.com/KpGbdqFV/virat-Out.webp",
       "battingStyle": "Right-hand bat",
       "bowlingStyle": "Right-arm offbreak"
     }
