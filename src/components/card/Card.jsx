@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { CircleUser, Flag } from 'lucide-react';
 
 
+
 const Card = ({ player }) => {
+      const [isSelected, setIsSelected] = useState(false);
       const { playerName, country, role, rating, price, playerImg, battingStyle, bowlingStyle } = player;
       return (
             <div className="card bg-base-100 w-full shadow-sm">
@@ -32,7 +34,8 @@ const Card = ({ player }) => {
                         </div>
                         <div className="card-actions flex justify-between items-center">
                               <p>Price: $<span>{price}</span></p>
-                              <button className="btn">Choose Player</button>
+                              <button onClick={() => setIsSelected(true)} disabled={isSelected ? true : false} 
+                              className="btn">{isSelected? "Selected" : "Choose Player"}</button>
                         </div>
                   </div>
             </div>
