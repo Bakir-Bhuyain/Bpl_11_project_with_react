@@ -3,6 +3,7 @@ import './App.css'
 import Banner from './components/banner/Banner'
 import Navbar from './components/navbar/Navbar'
 import Players from './components/player/Players'
+import { ToastContainer } from 'react-toastify'
 
 function App() {
 
@@ -20,6 +21,14 @@ function App() {
       <Suspense fallback={<span className="loading loading-ring loading-xl"></span>}>
         <Players playerData={playerData} setCoin={setCoin} coin={coin}></Players>
       </Suspense>
+
+
+
+
+
+
+
+      <ToastContainer />
     </>
   )
 }
