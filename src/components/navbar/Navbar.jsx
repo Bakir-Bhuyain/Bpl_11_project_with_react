@@ -1,7 +1,7 @@
 import React from 'react';
 import coinImg from '../../assets/dollar_1.png'
 import navMainIcon from '../../assets/logo.png'
-const Navbar = () => {
+const Navbar = ({ coin }) => {
       return (
             <nav className='mx-8'>
                   <div className="navbar bg-base-100 shadow-sm justify-between">
@@ -16,7 +16,7 @@ const Navbar = () => {
                         </div>
                         <div className="flex-none border-0 rounded-xl p-4 navbar-end">
                               <div className='flex justify-between items-center gap-2'>
-                                    <p className='font-semibold text-xl'>0 Coins</p>
+                                    <p className='font-semibold text-xl'>{coin} Coins</p>
                                     <img src={coinImg} alt="" />
                               </div>
                         </div>
